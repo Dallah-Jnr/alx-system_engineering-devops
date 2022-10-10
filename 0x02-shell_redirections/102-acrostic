@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -At1 | head -n10
+cut -c 1 | tr -d '\n' | sort
